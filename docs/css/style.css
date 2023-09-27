@@ -1,0 +1,200 @@
+body{
+  background-color: #002baa;
+  font-family: 'JetBrains Mono', monospace;}
+
+/* CSS styles for the About section */
+#about {
+  background-color: #f0f0f0;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.about-profile {
+  text-align: center;
+}
+
+.about-profile-image img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border: 5px solid #ffffff;
+  margin-bottom: 20px;
+}
+
+.about-profile h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-profile p {
+  font-size: 16px;
+  color: #586069;
+  margin-bottom: 20px;
+}
+
+.bio {
+  text-align: left;
+}
+
+.bio p {
+  font-size: 16px;
+  color: #586069;
+  line-height: 1.5;
+}
+
+/* Github Content Start */
+#github {
+  background-color: rgb(13, 17, 23);
+  padding: 40px 0;
+  text-align: center;
+}
+
+.github-content {
+  max-width: 800px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.github-content h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.profile {
+  position: absolute;
+  left: 200px;
+  flex-basis: 30%;
+  background-color: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-right: 20px;
+  margin-top: 245px;
+}
+
+.profile-image {
+  text-align: center;
+}
+
+.profile img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+
+.repository-container {
+  border: 1px rgb(13,17,23);
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background-color: rgb(13,17,23);
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.repository-container h3 a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.repository-container h3 a:hover {
+  text-decoration: underline;
+}
+
+.repository-container p {
+  font-size: 14px;
+  color: #586069;
+  margin-bottom: 12px;
+}
+
+.repository-info {
+  font-size: 12px;
+  color: #586069;
+}
+
+.repository-info span {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.scrollable {
+  margin-top: 100px;
+  margin-left: 4in;
+  margin-bottom: 3in;
+  flex-basis: 100%;
+  max-height: 400px;
+  overflow-y: auto;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 16px;
+  background-color: #000000;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.scrollable::-webkit-scrollbar {
+  width: 0;
+}
+/* Github Content End */
+
+/* Footer Styles */
+footer {
+  background-color: #010e29;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.social-icon:hover {
+  color: #007bff; 
+}
+
